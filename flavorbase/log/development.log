@@ -1,0 +1,11 @@
+  [1m[35m (465.1ms)[0m  [1m[35mCREATE DATABASE "flavorbase_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (264.2ms)[0m  [1m[35mCREATE DATABASE "flavorbase_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-06-07 14:26:28 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthew/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthew/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
