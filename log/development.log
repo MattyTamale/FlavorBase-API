@@ -1,0 +1,3710 @@
+  [1m[35m (465.1ms)[0m  [1m[35mCREATE DATABASE "flavorbase_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (264.2ms)[0m  [1m[35mCREATE DATABASE "flavorbase_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-06-07 14:26:28 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthew/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthew/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 16:32:06 -0500
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (598.8ms)[0m  [1m[35mCREATE DATABASE "flavorbase_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (516.5ms)[0m  [1m[35mCREATE DATABASE "flavorbase_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-06-07 16:37:17 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/josecarlos/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/josecarlos/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (11.9ms)
+Completed 200 OK in 41ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-06-07 16:37:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/beers/" for ::1 at 2019-06-07 18:35:05 -0500
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/beers_controller.rb:3:in `<class:BeersController>'
+app/controllers/beers_controller.rb:1:in `<main>'
+Started GET "/beers/" for ::1 at 2019-06-07 18:43:39 -0500
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/beers_controller.rb:3:in `<class:BeersController>'
+app/controllers/beers_controller.rb:1:in `<main>'
+Started GET "/beers/" for ::1 at 2019-06-07 18:45:53 -0500
+Processing by BeersController#index as */*
+  Parameters: {"task_item"=>"RANDOM", "completed"=>true, "beer"=>{"task_item"=>"RANDOM", "completed"=>true}}
+Completed 200 OK in 24ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers/" for ::1 at 2019-06-07 18:49:53 -0500
+Processing by BeersController#create as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::SyntaxError (ERROR:  syntax error at or near ")"
+LINE 2: ...California', 'Arizona', 9, true, 'hops, watermelon, mint', )
+                                                                      ^
+):
+  
+app/models/beer.rb:45:in `async_exec'
+app/models/beer.rb:45:in `create'
+app/controllers/beers_controller.rb:14:in `create'
+Started POST "/beers/" for ::1 at 2019-06-07 18:53:48 -0500
+Processing by BeersController#create as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 17ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers/" for ::1 at 2019-06-07 18:54:07 -0500
+Processing by BeersController#index as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers/1" for ::1 at 2019-06-07 18:54:22 -0500
+Processing by BeersController#show as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "id"=>"1", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::SyntaxError (ERROR:  syntax error at or near "WHERE"
+LINE 3:               WHERE entry_id=1
+                      ^
+):
+  
+app/models/beer.rb:26:in `async_exec'
+app/models/beer.rb:26:in `find'
+app/controllers/beers_controller.rb:10:in `show'
+Started GET "/beers/0" for ::1 at 2019-06-07 18:54:30 -0500
+Processing by BeersController#show as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "id"=>"0", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::SyntaxError (ERROR:  syntax error at or near "WHERE"
+LINE 3:               WHERE entry_id=0
+                      ^
+):
+  
+app/models/beer.rb:26:in `async_exec'
+app/models/beer.rb:26:in `find'
+app/controllers/beers_controller.rb:10:in `show'
+Started GET "/beers/1" for ::1 at 2019-06-07 18:55:14 -0500
+Processing by BeersController#show as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "id"=>"1", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::SyntaxError (ERROR:  syntax error at or near "WHERE"
+LINE 3:               WHERE entry_id=1
+                      ^
+):
+  
+app/models/beer.rb:26:in `async_exec'
+app/models/beer.rb:26:in `find'
+app/controllers/beers_controller.rb:10:in `show'
+Started GET "/beers/1" for ::1 at 2019-06-07 18:55:44 -0500
+Processing by BeersController#show as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "id"=>"1", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/1" for ::1 at 2019-06-07 18:56:32 -0500
+Processing by BeersController#delete as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "id"=>"1", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:56:38 -0500
+Processing by BeersController#index as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-07 19:00:08 -0500
+Processing by BeersController#create as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Arizona", "rating"=>9, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/beers/2" for ::1 at 2019-06-07 19:00:37 -0500
+Processing by BeersController#update as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "id"=>"2", "beer"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 12ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-07 19:02:12 -0500
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/coffees_controller.rb:3:in `<class:CoffeesController>'
+app/controllers/coffees_controller.rb:1:in `<main>'
+Started GET "/coffees" for ::1 at 2019-06-07 19:03:04 -0500
+Processing by CoffeesController#index as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "coffee"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-07 19:03:50 -0500
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/foods_controller.rb:3:in `<class:FoodsController>'
+app/controllers/foods_controller.rb:1:in `<main>'
+Started GET "/foods" for ::1 at 2019-06-07 19:04:00 -0500
+Processing by FoodsController#index as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "food"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-07 19:04:41 -0500
+Processing by WinesController#index as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "wine"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant Wine, expected /Users/josecarlos/Desktop/FlavorBase/FlavorBase-API/flavorbase/app/models/wine.rb to define it):
+  
+app/controllers/wines_controller.rb:6:in `index'
+Started GET "/wines" for ::1 at 2019-06-07 19:05:49 -0500
+Processing by WinesController#index as */*
+  Parameters: {"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint", "wine"=>{"date"=>"06/06/19", "brand"=>"White Elephant", "origin"=>"California", "location"=>"Alaska", "rating"=>6, "favorite"=>true, "flavors"=>"hops, watermelon, mint"}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 17:13:32 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthew/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthew/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-06-07 17:13:32 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/beers" for ::1 at 2019-06-07 17:25:19 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 11ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:25:41 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:44:51 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:47:48 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:52:31 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:52:31 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:55:10 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:58:37 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:58:40 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 17:59:59 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:14:01 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:14:40 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:21:25 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:21:28 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:22:38 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:22:42 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:23:57 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:24:00 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:24:32 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:25:17 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:28:20 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:29:31 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:29:44 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:29:57 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:30:40 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:31:07 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:32:00 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:34:04 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:38:26 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:39:23 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:39:48 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:40:32 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-07 18:40:40 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:12:59 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:13:39 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:23:25 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:24:33 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-08 08:25:11 -0700
+Started GET "/beers" for ::1 at 2019-06-08 08:25:11 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 08:25:11 -0700
+Started GET "/wines" for ::1 at 2019-06-08 08:25:11 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:26:20 -0700
+Started GET "/foods" for ::1 at 2019-06-08 08:26:20 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 08:26:20 -0700
+Processing by BeersController#index as */*
+Started GET "/wines" for ::1 at 2019-06-08 08:26:20 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:26:47 -0700
+Started GET "/foods" for ::1 at 2019-06-08 08:26:47 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-08 08:26:47 -0700
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-08 08:26:47 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 08:28:43 -0700
+Started GET "/foods" for ::1 at 2019-06-08 08:28:43 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-08 08:28:43 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-08 08:28:43 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-08 09:31:36 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 09:31:36 -0700
+Started GET "/wines" for ::1 at 2019-06-08 09:31:36 -0700
+Started GET "/beers" for ::1 at 2019-06-08 09:31:36 -0700
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 8ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-08 09:32:51 -0700
+Started GET "/beers" for ::1 at 2019-06-08 09:32:51 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-08 09:32:51 -0700
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-08 09:32:51 -0700
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 11:12:28 -0700
+Started GET "/foods" for ::1 at 2019-06-08 11:12:28 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 11:12:28 -0700
+Started GET "/wines" for ::1 at 2019-06-08 11:12:28 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-08 12:24:26 -0700
+Started GET "/wines" for ::1 at 2019-06-08 12:24:26 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-08 12:24:26 -0700
+Started GET "/beers" for ::1 at 2019-06-08 12:24:26 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 12:27:36 -0700
+Started GET "/foods" for ::1 at 2019-06-08 12:27:36 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 12:27:36 -0700
+Started GET "/wines" for ::1 at 2019-06-08 12:27:36 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 13:34:43 -0700
+Started GET "/wines" for ::1 at 2019-06-08 13:34:43 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 13:34:43 -0700
+Started GET "/foods" for ::1 at 2019-06-08 13:34:43 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 13:34:57 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-08 13:34:58 -0700
+Started GET "/wines" for ::1 at 2019-06-08 13:34:58 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-08 13:34:58 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 14:22:36 -0700
+Started GET "/foods" for ::1 at 2019-06-08 14:22:36 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 14:22:36 -0700
+Started GET "/wines" for ::1 at 2019-06-08 14:22:36 -0700
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 14:38:14 -0700
+Started GET "/foods" for ::1 at 2019-06-08 14:38:14 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 14:38:14 -0700
+Started GET "/wines" for ::1 at 2019-06-08 14:38:14 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 14ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-08 14:41:47 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 14:41:47 -0700
+Started GET "/foods" for ::1 at 2019-06-08 14:41:47 -0700
+Started GET "/beers" for ::1 at 2019-06-08 14:41:47 -0700
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 9ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 14:47:53 -0700
+Started GET "/foods" for ::1 at 2019-06-08 14:47:53 -0700
+Started GET "/wines" for ::1 at 2019-06-08 14:47:53 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 14:47:53 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 7ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 14:48:47 -0700
+Started GET "/foods" for ::1 at 2019-06-08 14:48:47 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 14:48:47 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-08 14:48:47 -0700
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-08 14:49:05 -0700
+Started GET "/foods" for ::1 at 2019-06-08 14:49:05 -0700
+Started GET "/coffees" for ::1 at 2019-06-08 14:49:05 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-08 14:49:05 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 09:14:29 -0700
+Started GET "/wines" for ::1 at 2019-06-09 09:14:29 -0700
+Started GET "/foods" for ::1 at 2019-06-09 09:14:29 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 09:14:29 -0700
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:07:44 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:07:44 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:07:44 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:07:44 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:07:56 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:07:56 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 21:07:56 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:07:56 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:11:47 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 21:11:47 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 21:11:47 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:11:47 -0700
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:13:44 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:13:44 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:13:44 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:13:44 -0700
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:15:06 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:15:06 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 21:15:06 -0700
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:15:06 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 21:15:57 -0700
+Started GET "/beers" for ::1 at 2019-06-09 21:15:57 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:15:57 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:15:57 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 21:16:23 -0700
+Started GET "/beers" for ::1 at 2019-06-09 21:16:23 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:16:23 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 21:16:23 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:16:51 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 21:16:51 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:16:51 -0700
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:16:51 -0700
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:25:35 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:25:35 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:25:35 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:25:35 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:25:41 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:25:41 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:25:41 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:25:41 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 21:26:02 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"Today", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"San Diego", "rating"=>"9", "favorite"=>true, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "beer"=>{"date"=>"Today", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"San Diego", "rating"=>"9", "favorite"=>true, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true}}
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:26:06 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 21:26:06 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 21:26:06 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:26:07 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 21:31:14 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:31:14 -0700
+Started GET "/beers" for ::1 at 2019-06-09 21:31:14 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:31:14 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:31:34 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:31:34 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:31:34 -0700
+Processing by BeersController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 21:31:34 -0700
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:35:31 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:35:31 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:35:31 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:35:31 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:38:37 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:38:37 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:38:37 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:38:37 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:42:37 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:42:37 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:42:37 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:42:37 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 21:44:01 -0700
+Started GET "/beers" for ::1 at 2019-06-09 21:44:01 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:44:01 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:44:01 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:44:47 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 21:44:47 -0700
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 21:44:47 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:44:47 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:49:29 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:49:29 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:49:29 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:49:29 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:51:44 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:51:44 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 21:51:44 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 21:51:44 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 21:58:53 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 21:58:53 -0700
+Started GET "/foods" for ::1 at 2019-06-09 21:58:53 -0700
+Started GET "/wines" for ::1 at 2019-06-09 21:58:53 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:01:37 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:01:37 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 22:01:37 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 22:01:37 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/undefined" for ::1 at 2019-06-09 22:01:40 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"undefined"}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedColumn (ERROR:  column "undefined" does not exist
+LINE 1: DELETE FROM beer WHERE entry_id=undefined;
+                                        ^
+):
+  
+app/models/beer.rb:64:in `async_exec'
+app/models/beer.rb:64:in `delete'
+app/controllers/beers_controller.rb:18:in `delete'
+Started GET "/beers" for ::1 at 2019-06-09 22:02:35 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:02:35 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:02:35 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:02:35 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:02:51 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 22:02:51 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:02:51 -0700
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:02:51 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 22:04:01 -0700
+Started GET "/beers" for ::1 at 2019-06-09 22:04:01 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:04:01 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:04:01 -0700
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/undefined" for ::1 at 2019-06-09 22:06:06 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"undefined"}
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedColumn (ERROR:  column "undefined" does not exist
+LINE 1: DELETE FROM beer WHERE entry_id=undefined;
+                                        ^
+):
+  
+app/models/beer.rb:64:in `async_exec'
+app/models/beer.rb:64:in `delete'
+app/controllers/beers_controller.rb:18:in `delete'
+Started GET "/coffees" for ::1 at 2019-06-09 22:14:39 -0700
+Started GET "/beers" for ::1 at 2019-06-09 22:14:39 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:14:39 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:14:39 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/undefined" for ::1 at 2019-06-09 22:14:41 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"undefined"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedColumn (ERROR:  column "undefined" does not exist
+LINE 1: DELETE FROM beer WHERE entry_id=undefined;
+                                        ^
+):
+  
+app/models/beer.rb:64:in `async_exec'
+app/models/beer.rb:64:in `delete'
+app/controllers/beers_controller.rb:18:in `delete'
+Started GET "/beers" for ::1 at 2019-06-09 22:17:08 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:17:08 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:17:08 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:17:08 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:17:47 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:17:47 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:17:47 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:17:47 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/2" for ::1 at 2019-06-09 22:17:56 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:17:59 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:17:59 -0700
+Started GET "/beers" for ::1 at 2019-06-09 22:17:59 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:17:59 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:18:25 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"Today", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"San Diego", "rating"=>"9", "favorite"=>true, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "beer"=>{"date"=>"Today", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"San Diego", "rating"=>"9", "favorite"=>true, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:19:44 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:19:44 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:19:44 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:19:44 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:19:52 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:19:52 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:19:52 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:19:52 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 36ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/3" for ::1 at 2019-06-09 22:21:09 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:21:26 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:21:26 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:21:26 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:21:26 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:21:30 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"Today", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"Today", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/4" for ::1 at 2019-06-09 22:21:33 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:22:01 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:22:01 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:22:01 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:22:01 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:22:05 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/5" for ::1 at 2019-06-09 22:22:07 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:23:31 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 22:23:31 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:23:31 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:23:31 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:24:37 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:24:37 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:24:37 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:24:37 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:24:40 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/6" for ::1 at 2019-06-09 22:24:42 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"6"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:32:27 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:32:27 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:32:27 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:32:27 -0700
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:32:32 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/7" for ::1 at 2019-06-09 22:32:34 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"7"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:32:41 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 22:32:41 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:32:41 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:32:41 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:32:58 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/8" for ::1 at 2019-06-09 22:33:00 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"8"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/8" for ::1 at 2019-06-09 22:33:26 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"8"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/8" for ::1 at 2019-06-09 22:33:28 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"8"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/8" for ::1 at 2019-06-09 22:33:29 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"8"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:33:39 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>8, "date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>"f", "flavors"=>""}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>8, "date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>"f", "flavors"=>""}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/9" for ::1 at 2019-06-09 22:33:40 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"9"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 22:33:58 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:33:58 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:33:58 -0700
+Started GET "/beers" for ::1 at 2019-06-09 22:33:58 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:35:18 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:35:18 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:35:18 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 22:35:18 -0700
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 22:35:23 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/10" for ::1 at 2019-06-09 22:35:25 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:40:39 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 22:40:39 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:40:39 -0700
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 22:40:39 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:43:23 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:43:23 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:43:23 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:43:23 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:48:33 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:48:33 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 22:48:33 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:48:33 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 22:49:06 -0700
+Started GET "/beers" for ::1 at 2019-06-09 22:49:06 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:49:06 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:49:06 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:50:41 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:50:41 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:50:41 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:50:41 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:51:49 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:51:49 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:51:49 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:51:49 -0700
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:52:15 -0700
+Processing by BeersController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 22:52:15 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:52:15 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:52:15 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:52:39 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 22:52:39 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:52:39 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:52:39 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:53:34 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:53:34 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:53:34 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:53:34 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:54:13 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:54:13 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:54:13 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:54:13 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:54:42 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:54:42 -0700
+Started GET "/wines" for ::1 at 2019-06-09 22:54:42 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 22:54:42 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:55:41 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 22:55:41 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:55:41 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:55:41 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:58:07 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:58:07 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 22:58:07 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 22:58:07 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 22:58:23 -0700
+Started GET "/foods" for ::1 at 2019-06-09 22:58:23 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 22:58:23 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 22:58:23 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:00:47 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 23:00:47 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:00:47 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 23:00:47 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/undefined" for ::1 at 2019-06-09 23:00:54 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"undefined"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedColumn (ERROR:  column "undefined" does not exist
+LINE 1: DELETE FROM beer WHERE entry_id=undefined;
+                                        ^
+):
+  
+app/models/beer.rb:64:in `async_exec'
+app/models/beer.rb:64:in `delete'
+app/controllers/beers_controller.rb:18:in `delete'
+Started GET "/beers" for ::1 at 2019-06-09 23:00:57 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:00:57 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:00:57 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:00:57 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:03:27 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:03:27 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:03:27 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:03:27 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:03:35 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:03:35 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:03:35 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:03:35 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:04:37 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:04:37 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:04:37 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:04:37 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 23:04:44 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/foods" for ::1 at 2019-06-09 23:06:36 -0700
+Processing by FoodsController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Dole", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food", "food"=>{"date"=>"", "brand"=>"Dole", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food"}}
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/coffees" for ::1 at 2019-06-09 23:06:49 -0700
+Processing by CoffeesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Costa Rica", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee", "coffee"=>{"date"=>"", "brand"=>"Costa Rica", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee"}}
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:06:54 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:06:54 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:06:54 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:06:54 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:08:52 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:08:52 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:08:52 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:08:52 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:09:00 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:09:00 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:09:00 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:09:00 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/11" for ::1 at 2019-06-09 23:09:07 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"11"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:09:09 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:09:09 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:09:09 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 23:09:09 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:09:52 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:09:52 -0700
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:09:52 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 23:09:52 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:10:59 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:10:59 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:10:59 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 23:10:59 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:12:36 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:12:36 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:12:36 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:12:36 -0700
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:13:23 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:13:23 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:13:23 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:13:23 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:16:10 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:16:10 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:16:10 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:16:10 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:16:19 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 23:16:19 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:16:19 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:16:19 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:16:36 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:16:36 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:16:36 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:16:36 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:17:14 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:17:14 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:17:14 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:17:14 -0700
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:20:36 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:20:36 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:20:36 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:20:36 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:21:48 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:21:48 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:21:48 -0700
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 23:21:48 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:24:49 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:24:49 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:24:49 -0700
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-09 23:24:49 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:25:25 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:25:25 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:25:25 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:25:25 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:25:30 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:25:30 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:25:30 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:25:30 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:25:34 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 23:25:34 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:25:34 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:25:34 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:26:17 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:26:17 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:26:17 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:26:17 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:26:22 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:26:22 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:26:22 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:26:22 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:26:28 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:26:28 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:26:28 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:26:28 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:27:34 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:27:34 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:27:34 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:27:34 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/coffees/2" for ::1 at 2019-06-09 23:27:44 -0700
+Processing by CoffeesController#delete as */*
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:27:46 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:27:46 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:27:46 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:27:46 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/foods/2" for ::1 at 2019-06-09 23:27:50 -0700
+Processing by FoodsController#delete as */*
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:27:52 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:27:52 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:27:52 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:27:52 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/wines" for ::1 at 2019-06-09 23:27:59 -0700
+Processing by WinesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"02/10/19", "brand"=>"Peltzer", "origin"=>"Temecula, CA", "location"=>"Temecula", "rating"=>9, "favorite"=>"t", "flavors"=>"velvet, decadent"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"wine", "wine"=>{"date"=>"", "brand"=>"", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"02/10/19", "brand"=>"Peltzer", "origin"=>"Temecula, CA", "location"=>"Temecula", "rating"=>9, "favorite"=>"t", "flavors"=>"velvet, decadent"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"wine"}}
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:29:05 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:29:05 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:29:05 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:29:05 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/wines" for ::1 at 2019-06-09 23:29:11 -0700
+Processing by WinesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"02/10/19", "brand"=>"Peltzer", "origin"=>"Temecula, CA", "location"=>"Temecula", "rating"=>9, "favorite"=>"t", "flavors"=>"velvet, decadent"}, {"entry_id"=>2, "date"=>"", "brand"=>"", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>"f", "flavors"=>""}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"wine", "wine"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"02/10/19", "brand"=>"Peltzer", "origin"=>"Temecula, CA", "location"=>"Temecula", "rating"=>9, "favorite"=>"t", "flavors"=>"velvet, decadent"}, {"entry_id"=>2, "date"=>"", "brand"=>"", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>"f", "flavors"=>""}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"wine"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/wines/2" for ::1 at 2019-06-09 23:29:15 -0700
+Processing by WinesController#delete as */*
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/wines/3" for ::1 at 2019-06-09 23:29:16 -0700
+Processing by WinesController#delete as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:29:18 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:29:18 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:29:18 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:29:18 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/foods" for ::1 at 2019-06-09 23:29:24 -0700
+Processing by FoodsController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food", "food"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food"}}
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/coffees" for ::1 at 2019-06-09 23:29:26 -0700
+Processing by CoffeesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee", "coffee"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/wines" for ::1 at 2019-06-09 23:29:29 -0700
+Processing by WinesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"02/10/19", "brand"=>"Peltzer", "origin"=>"Temecula, CA", "location"=>"Temecula", "rating"=>9, "favorite"=>"t", "flavors"=>"velvet, decadent"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"wine", "wine"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"02/10/19", "brand"=>"Peltzer", "origin"=>"Temecula, CA", "location"=>"Temecula", "rating"=>9, "favorite"=>"t", "flavors"=>"velvet, decadent"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"wine"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-09 23:29:31 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/12" for ::1 at 2019-06-09 23:29:33 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"12"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/foods/3" for ::1 at 2019-06-09 23:29:35 -0700
+Processing by FoodsController#delete as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/coffees/3" for ::1 at 2019-06-09 23:29:38 -0700
+Processing by CoffeesController#delete as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/wines/4" for ::1 at 2019-06-09 23:29:39 -0700
+Processing by WinesController#delete as */*
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:29:41 -0700
+Processing by FoodsController#index as */*
+Started GET "/beers" for ::1 at 2019-06-09 23:29:41 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:29:41 -0700
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:29:41 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:32:58 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:32:58 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:32:58 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:32:58 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:36:10 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:36:10 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:36:10 -0700
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:36:10 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:37:58 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:37:58 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:37:58 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:37:58 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:38:36 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:38:36 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:38:36 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:38:36 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:41:28 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:41:28 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:41:28 -0700
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:41:28 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:42:04 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 23:42:05 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:42:05 -0700
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:42:05 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:42:32 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:42:32 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:42:32 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:42:32 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-09 23:43:34 -0700
+Started GET "/beers" for ::1 at 2019-06-09 23:43:34 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:43:34 -0700
+Started GET "/coffees" for ::1 at 2019-06-09 23:43:34 -0700
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:45:11 -0700
+Started GET "/foods" for ::1 at 2019-06-09 23:45:11 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-09 23:45:11 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-09 23:45:11 -0700
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-09 23:45:55 -0700
+Processing by BeersController#index as */*
+Started GET "/foods" for ::1 at 2019-06-09 23:45:55 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-09 23:45:55 -0700
+Started GET "/wines" for ::1 at 2019-06-09 23:45:55 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:15:25 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:15:25 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:15:25 -0700
+Started GET "/beers" for ::1 at 2019-06-10 09:15:25 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 25ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/foods" for ::1 at 2019-06-10 09:15:48 -0700
+Processing by FoodsController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food", "food"=>{"date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food"}}
+Completed 200 OK in 20ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/foods" for ::1 at 2019-06-10 09:16:09 -0700
+Processing by FoodsController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Dole", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}, {"entry_id"=>4, "date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>"f", "flavors"=>""}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food", "food"=>{"date"=>"", "brand"=>"Dole", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/06/19", "brand"=>"Blueberry Scone", "origin"=>"Sweden", "location"=>"Santa Barbara", "rating"=>7, "favorite"=>"f", "flavors"=>"blueberry, butter, lemon"}, {"entry_id"=>4, "date"=>"", "brand"=>"", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>"f", "flavors"=>""}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"food"}}
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/foods/5" for ::1 at 2019-06-10 09:16:12 -0700
+Processing by FoodsController#delete as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:16:14 -0700
+Started GET "/beers" for ::1 at 2019-06-10 09:16:14 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-10 09:16:14 -0700
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:16:14 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:16:40 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 14ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/13" for ::1 at 2019-06-10 09:16:47 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"13"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:16:54 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:16:54 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:16:54 -0700
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:16:54 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:22:56 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:22:56 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:22:56 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:22:56 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 9ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:23:00 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:23:00 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:23:00 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:23:00 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:23:11 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/14" for ::1 at 2019-06-10 09:23:17 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"14"}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:23:50 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:23:50 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-10 09:23:50 -0700
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-10 09:23:50 -0700
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:23:53 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:23:53 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:23:53 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:23:53 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:24:02 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/15" for ::1 at 2019-06-10 09:24:05 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"15"}
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:27:12 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:27:12 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:27:12 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:27:12 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:27:17 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:27:17 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:27:17 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:27:17 -0700
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 113ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 112ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 118ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:27:25 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/16" for ::1 at 2019-06-10 09:27:28 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"16"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:28:52 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:28:52 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:28:52 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:28:52 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:29:08 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/17" for ::1 at 2019-06-10 09:29:19 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"17"}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:30:10 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:30:10 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:30:10 -0700
+Processing by CoffeesController#index as */*
+Started GET "/wines" for ::1 at 2019-06-10 09:30:10 -0700
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:30:17 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/18" for ::1 at 2019-06-10 09:30:19 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"18"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:30:46 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:30:46 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:30:46 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:30:46 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:30:50 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:30:50 -0700
+Processing by BeersController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-10 09:30:50 -0700
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:30:50 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:30:57 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/19" for ::1 at 2019-06-10 09:31:00 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"19"}
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:31:55 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:31:55 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:31:55 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:31:55 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:32:01 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:32:01 -0700
+Processing by FoodsController#index as */*
+Started GET "/coffees" for ::1 at 2019-06-10 09:32:01 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:32:01 -0700
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:32:07 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"Today", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"Today", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/20" for ::1 at 2019-06-10 09:32:09 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"20"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:32:48 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:32:48 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:32:48 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:32:48 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:32:55 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:32:55 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:32:55 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:32:55 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:33:07 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"California", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/21" for ::1 at 2019-06-10 09:33:09 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"21"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:34:23 -0700
+Processing by BeersController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 09:34:23 -0700
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:34:23 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:34:23 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:40:14 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:40:14 -0700
+Started GET "/wines" for ::1 at 2019-06-10 09:40:14 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:40:14 -0700
+Processing by FoodsController#index as */*
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 30ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by BeersController#index as */*
+Completed 200 OK in 15ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beers" for ::1 at 2019-06-10 09:40:20 -0700
+Processing by BeersController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer", "beer"=>{"date"=>"", "brand"=>"Sierra Nevada", "origin"=>"", "location"=>"", "rating"=>0, "favorite"=>false, "flavors"=>"hops and cactus", "currentArray"=>[{"entry_id"=>1, "date"=>"06/07/19", "brand"=>"Elysian", "origin"=>"Seattle", "location"=>"California", "rating"=>10, "favorite"=>"t", "flavors"=>"hops, jasmine"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"beer"}}
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/beers/22" for ::1 at 2019-06-10 09:40:22 -0700
+Processing by BeersController#delete as */*
+  Parameters: {"id"=>"22"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:40:50 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:40:50 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:40:50 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 09:40:50 -0700
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 09:41:05 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:41:05 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:41:05 -0700
+Processing by CoffeesController#index as */*
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:41:05 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/coffees" for ::1 at 2019-06-10 09:41:23 -0700
+Processing by CoffeesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Costa Rica", "origin"=>"", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee", "coffee"=>{"date"=>"", "brand"=>"Costa Rica", "origin"=>"", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee"}}
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/coffees/4" for ::1 at 2019-06-10 09:41:26 -0700
+Processing by CoffeesController#delete as */*
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 09:41:56 -0700
+Started GET "/foods" for ::1 at 2019-06-10 09:41:57 -0700
+Processing by CoffeesController#index as */*
+Started GET "/beers" for ::1 at 2019-06-10 09:41:57 -0700
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wines" for ::1 at 2019-06-10 09:41:57 -0700
+Processing by WinesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/coffees" for ::1 at 2019-06-10 09:42:05 -0700
+Processing by CoffeesController#create as HTML
+  Parameters: {"date"=>"", "brand"=>"Costa Rica", "origin"=>"", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee", "coffee"=>{"date"=>"", "brand"=>"Costa Rica", "origin"=>"", "location"=>"San Diego", "rating"=>0, "favorite"=>false, "flavors"=>"", "currentArray"=>[{"entry_id"=>1, "date"=>"06/08/19", "brand"=>"Blue Moon", "origin"=>"Bali", "location"=>"California", "rating"=>9, "favorite"=>"t", "flavors"=>"hazelnut, chocolate"}], "showForm"=>true, "randArray"=>nil, "currentCategory"=>"coffee"}}
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/coffees/5" for ::1 at 2019-06-10 09:42:07 -0700
+Processing by CoffeesController#delete as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 10:12:53 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 10:12:53 -0700
+Started GET "/foods" for ::1 at 2019-06-10 10:12:53 -0700
+Started GET "/wines" for ::1 at 2019-06-10 10:12:53 -0700
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/foods" for ::1 at 2019-06-10 10:26:43 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 10:26:43 -0700
+Started GET "/beers" for ::1 at 2019-06-10 10:26:43 -0700
+Started GET "/wines" for ::1 at 2019-06-10 10:26:43 -0700
+Processing by WinesController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by CoffeesController#index as */*
+Processing by FoodsController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coffees" for ::1 at 2019-06-10 10:51:17 -0700
+Started GET "/foods" for ::1 at 2019-06-10 10:51:17 -0700
+Started GET "/beers" for ::1 at 2019-06-10 10:51:17 -0700
+Started GET "/wines" for ::1 at 2019-06-10 10:51:17 -0700
+Processing by BeersController#index as */*
+Processing by FoodsController#index as */*
+Processing by WinesController#index as */*
+Processing by CoffeesController#index as */*
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers" for ::1 at 2019-06-10 11:06:46 -0700
+Started GET "/wines" for ::1 at 2019-06-10 11:06:46 -0700
+Started GET "/foods" for ::1 at 2019-06-10 11:06:46 -0700
+Started GET "/coffees" for ::1 at 2019-06-10 11:06:46 -0700
+Processing by CoffeesController#index as */*
+Processing by WinesController#index as */*
+Processing by FoodsController#index as */*
+Processing by BeersController#index as */*
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
